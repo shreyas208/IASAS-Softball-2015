@@ -87,34 +87,26 @@
         </div>
         <div class="row">
             <div class="col-lg-8 col-md-8 text-center">
+                <h4>NOTE: Click <a href="https://www.youtube.com/watch?v=hUl8ezoiovQ" target="_blank">here</a> for previous Day 2 footage.</h4>
                 <div class="video-container">
                     <?php
                     date_default_timezone_set('Asia/Jakarta');
                     $date = getdate();
                     $vidkey = '';
-                    if ($date['year'] == 2015) {
-                        if ($date['mon'] == 4) {
-                            if ($date['mday'] < 10) {
-                                echo '<h3>The Live Stream will be available from 8:00AM, Friday  April 2015</h3>';
-                            } else if ($date['mday'] == 10) {
-                                $vidkey = 'GX27N2yPPVU';
-                                echo '<iframe style="padding-bottom:16px" width="100%" height="100%" src="http://www.youtube.com/embed/'.$vidkey.'?autoplay=1" frameborder="0" allowfullscreen></iframe>';
-                            } else if ($date['mday'] == 11) {
-                                $vidkey = 'T0M7XS6lnjM';
-                                echo '<iframe style="padding-bottom:16px" width="100%" height="100%" src="http://www.youtube.com/embed/'.$vidkey.'?autoplay=1" frameborder="0" allowfullscreen></iframe>';
-                            } else if ($date['mday'] == 12) {
-                                $vidkey = 'BUUmeOHzUoo';
-                                echo '<iframe style="padding-bottom:16px" width="100%" height="100%" src="http://www.youtube.com/embed/'.$vidkey.'?autoplay=1" frameborder="0" allowfullscreen></iframe>';
-                            } else {
-                                echo '<h3>The event has concluded. See below for recorded footage.</h3>';
-                            }
-                        } else if ($date['mon'] > 4) {
-                            echo '<h3>The event has concluded. See below for recorded footage.</h3>';
-                        } else {
-                            echo '<h3>The Live Stream will be available from 8:00AM, Friday  April 2015</h3>';
+                    if ($date['mon'] == 4) {
+                        if ($date['mday'] == 10) {
+                            $vidkey = 'GX27N2yPPVU';
+                        } else if ($date['mday'] == 11) {
+                            $vidkey = 'T0M7XS6lnjM';
+                        } else if ($date['mday'] == 12) {
+                            $vidkey = 'BUUmeOHzUoo';
                         }
-                    } else {
-                        echo '<h3>The Live Stream will be available from 8:00AM, Friday  April 2015</h3>';
+                    }
+                    if ($vidkey != '') {
+                        echo '<iframe style="padding-bottom:16px" width="100%" height="100%" src="http://www.youtube.com/embed/'.$vidkey.'?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+                    }
+                    if ($date['mon'] == 4 || $date['mday'] < 10 || $date['mday'] > 12) {
+                        echo '<h3>The Live Stream will be available from 8:00AM, Friday 10 April 2015</h3>';
                     }
                     ?>
                 </div>
@@ -204,29 +196,6 @@
                     </tr>
                     </tbody>
                 </table>
-            </div>
-            <div class="col-lg-8 col-md-8">
-                <h4>Recorded Video</h4>
-                <a href="https://www.youtube.com/watch?v=GX27N2yPPVU" target="_blank">
-                    <button type="button" class="btn btn-warning" style="width:84px; margin-bottom:5px; margin-right:10px">
-                        <strong>Day 1</strong>
-                    </button>
-                </a>
-                <a href="https://www.youtube.com/watch?v=hUl8ezoiovQ" target="_blank">
-                    <button type="button" class="btn btn-warning" style="width:84px; margin-bottom:5px; margin-right:10px">
-                        <strong>Day 2 - 1</strong>
-                    </button>
-                </a>
-                <a href="https://www.youtube.com/watch?v=T0M7XS6lnjM" target="_blank">
-                    <button type="button" class="btn btn-warning" style="width:84px; margin-bottom:5px; margin-right:10px">
-                        <strong>Day 2 - 2</strong>
-                    </button>
-                </a>
-                <!--<a href="https://www.youtube.com/watch?v=BUUmeOHzUoo" target="_blank">
-                    <button type="button" class="btn btn-warning" style="width:84px; margin-bottom:5px; margin-right:10px">
-                        <strong>Day 3</strong>
-                    </button>
-                </a>-->
             </div>
         </div>
     </div><!-- /.container -->

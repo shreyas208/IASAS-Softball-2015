@@ -32,7 +32,6 @@
         }
         .cell-total {
             width: 13%;
-            font-weight: bold;
         }
         .cell-innings {
             width: 8%;
@@ -733,94 +732,6 @@
                                     <td class="cell cell-innings" id="I89"></td>
                                     <td class="cell cell-innings" id="J89"></td>
                                     <td class="cell cell-total" id="K89"></td>
-                                </tr>
-                            </table>
-                        </div>
-                        <h3>Consolation Game</h3>
-                        <div class="table-responsive">
-                            <table style="width: 100%; font-size: 1.2em;" class="text-center">
-                                <tr>
-                                    <td class="cell cell-image"></td>
-                                    <td class="cell cell-innings"><strong>1</strong></td>
-                                    <td class="cell cell-innings"><strong>2</strong></td>
-                                    <td class="cell cell-innings"><strong>3</strong></td>
-                                    <td class="cell cell-innings"><strong>4</strong></td>
-                                    <td class="cell cell-innings"><strong>5</strong></td>
-                                    <td class="cell cell-innings"><strong>6</strong></td>
-                                    <td class="cell cell-innings"><strong>7</strong></td>
-                                    <td class="cell cell-innings"><strong>8</strong></td>
-                                    <td class="cell cell-innings"><strong>9</strong></td>
-                                    <td class="cell cell-total"><strong>TOTAL</strong></td>
-                                </tr>
-                                <tr>
-                                    <td class="cell cell-image"><img class="img-responsive" src="../img/schools/school_ISB_100px.png"><br>VISITOR</td>
-                                    <td class="cell cell-innings" id="B93"></td>
-                                    <td class="cell cell-innings" id="C93"></td>
-                                    <td class="cell cell-innings" id="D93"></td>
-                                    <td class="cell cell-innings" id="E93"></td>
-                                    <td class="cell cell-innings" id="F93"></td>
-                                    <td class="cell cell-innings" id="G93"></td>
-                                    <td class="cell cell-innings" id="H93"></td>
-                                    <td class="cell cell-innings" id="I93"></td>
-                                    <td class="cell cell-innings" id="J93"></td>
-                                    <td class="cell cell-total" id="K93"></td>
-                                </tr>
-                                <tr>
-                                    <td class="cell cell-image"><img class="img-responsive" src="../img/schools/school_ISKL_100px.png"><br>HOME</td>
-                                    <td class="cell cell-innings" id="B95"></td>
-                                    <td class="cell cell-innings" id="C95"></td>
-                                    <td class="cell cell-innings" id="D95"></td>
-                                    <td class="cell cell-innings" id="E95"></td>
-                                    <td class="cell cell-innings" id="F95"></td>
-                                    <td class="cell cell-innings" id="G95"></td>
-                                    <td class="cell cell-innings" id="H95"></td>
-                                    <td class="cell cell-innings" id="I95"></td>
-                                    <td class="cell cell-innings" id="J95"></td>
-                                    <td class="cell cell-total" id="K95"></td>
-                                </tr>
-                            </table>
-                        </div>
-                        <h3>Championship Game</h3>
-                        <div class="table-responsive">
-                            <table style="width: 100%; font-size: 1.2em;" class="text-center">
-                                <tr>
-                                    <td class="cell cell-image"></td>
-                                    <td class="cell cell-innings"><strong>1</strong></td>
-                                    <td class="cell cell-innings"><strong>2</strong></td>
-                                    <td class="cell cell-innings"><strong>3</strong></td>
-                                    <td class="cell cell-innings"><strong>4</strong></td>
-                                    <td class="cell cell-innings"><strong>5</strong></td>
-                                    <td class="cell cell-innings"><strong>6</strong></td>
-                                    <td class="cell cell-innings"><strong>7</strong></td>
-                                    <td class="cell cell-innings"><strong>8</strong></td>
-                                    <td class="cell cell-innings"><strong>9</strong></td>
-                                    <td class="cell cell-total"><strong>TOTAL</strong></td>
-                                </tr>
-                                <tr>
-                                    <td class="cell cell-image"><img class="img-responsive" src="../img/schools/school_ISM_100px.png"><br>VISITOR</td>
-                                    <td class="cell cell-innings" id="B99"></td>
-                                    <td class="cell cell-innings" id="C99"></td>
-                                    <td class="cell cell-innings" id="D99"></td>
-                                    <td class="cell cell-innings" id="E99"></td>
-                                    <td class="cell cell-innings" id="F99"></td>
-                                    <td class="cell cell-innings" id="G99"></td>
-                                    <td class="cell cell-innings" id="H99"></td>
-                                    <td class="cell cell-innings" id="I99"></td>
-                                    <td class="cell cell-innings" id="J99"></td>
-                                    <td class="cell cell-total" id="K99"></td>
-                                </tr>
-                                <tr>
-                                    <td class="cell cell-image"><img class="img-responsive" src="../img/schools/school_SAS_100px.png"><br>HOME</td>
-                                    <td class="cell cell-innings" id="B101"></td>
-                                    <td class="cell cell-innings" id="C101"></td>
-                                    <td class="cell cell-innings" id="D101"></td>
-                                    <td class="cell cell-innings" id="E101"></td>
-                                    <td class="cell cell-innings" id="F101"></td>
-                                    <td class="cell cell-innings" id="G101"></td>
-                                    <td class="cell cell-innings" id="H101"></td>
-                                    <td class="cell cell-innings" id="I101"></td>
-                                    <td class="cell cell-innings" id="J101"></td>
-                                    <td class="cell cell-total" id="K101"></td>
                                 </tr>
                             </table>
                         </div>

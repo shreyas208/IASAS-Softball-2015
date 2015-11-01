@@ -87,33 +87,25 @@
         </div>
         <div class="row">
             <div class="col-lg-8 col-md-8 text-center">
+                <h4>NOTE: Click <a href="https://www.youtube.com/watch?v=lfzQ0P33PFk" target="_blank">here</a> for previous Day 2 footage.</h4>
                 <div class="video-container">
                     <?php
                     date_default_timezone_set('Asia/Jakarta');
                     $date = getdate();
                     $vidkey = '';
-                    if ($date['year'] == 2015) {
-                        if ($date['mon'] == 4) {
-                            if ($date['mday'] < 10) {
-                                echo '<h3>The Live Stream will be available from 8:00AM, Friday  April 2015</h3>';
-                            } else if ($date['mday'] == 10) {
-                                $vidkey = 'L8qILOGE9S8';
-                                echo '<iframe style="padding-bottom:16px" width="100%" height="100%" src="http://www.youtube.com/embed/'.$vidkey.'?autoplay=1" frameborder="0" allowfullscreen></iframe>';
-                            } else if ($date['mday'] == 11) {
-                                $vidkey = '_dE3UvP1yGQ';
-                                echo '<iframe style="padding-bottom:16px" width="100%" height="100%" src="http://www.youtube.com/embed/'.$vidkey.'?autoplay=1" frameborder="0" allowfullscreen></iframe>';
-                            } else if ($date['mday'] == 12) {
-                                $vidkey = '2vkTFWwvvkA';
-                                echo '<iframe style="padding-bottom:16px" width="100%" height="100%" src="http://www.youtube.com/embed/'.$vidkey.'?autoplay=1" frameborder="0" allowfullscreen></iframe>';
-                            } else {
-                                echo '<h3>The event has concluded. See below for recorded footage.</h3>';
-                            }
-                        } else if ($date['mon'] > 4) {
-                            echo '<h3>The event has concluded. See below for recorded footage.</h3>';
-                        } else {
-                            echo '<h3>The Live Stream will be available from 8:00AM, Friday  April 2015</h3>';
+                    if ($date['mon'] == 4) {
+                        if ($date['mday'] == 10) {
+                            $vidkey = 'L8qILOGE9S8';
+                        } else if ($date['mday'] == 11) {
+                            $vidkey = '_dE3UvP1yGQ';
+                        } else if ($date['mday'] == 12) {
+                            $vidkey = '2vkTFWwvvkA';
                         }
-                    } else {
+                    }
+                    if ($vidkey != '') {
+                        echo '<iframe style="padding-bottom:16px" width="100%" height="100%" src="http://www.youtube.com/embed/'.$vidkey.'?autoplay=1" frameborder="0" allowfullscreen></iframe>';
+                    }
+                    if ($date['mon'] == 4 || $date['mday'] < 10 || $date['mday'] > 12) {
                         echo '<h3>The Live Stream will be available from 8:00AM, Friday  April 2015</h3>';
                     }
                     ?>

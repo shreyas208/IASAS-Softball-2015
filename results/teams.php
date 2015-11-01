@@ -27,7 +27,7 @@
         width: 10%;
         border: solid 2px lightgray;
         padding: 1px;
-        font-size: 1em;
+        font-size: 0.6em;
         text-align: center;
     }
     .cell-default {
@@ -38,7 +38,6 @@
     }
     .cell-totals {
         width: 4vw;
-        font-weight: bold;
     }
     .black {
         background-color: darkgray;
@@ -70,7 +69,7 @@
                 <div class="tab-pane fade in active" id="Boys">
                     <div class="col-lg-12">
                         <div class="table-responsive" id="Boys-Results">
-                            <table style="width: 100%;" class="text-center">
+                            <table style="width: 100%; font-size: 1.8em;" class="text-center">
                                 <tr>
                                     <td></td>
                                     <td class="cell cell-default"><img class="img-responsive" src="../img/schools/school_ISB_100px.png"></td>
@@ -162,7 +161,7 @@
                 <div class="tab-pane fade" id="Girls">
                     <div class="col-lg-12">
                         <div class="table-responsive" id="Girls-Results">
-                            <table style="width: 100%;" class="text-center">
+                            <table style="width: 100%; font-size: 1.8em;" class="text-center">
                                 <tr>
                                     <td style="width: 10%"></td>
                                     <td class="cell cell-default"><img class="img-responsive" src="../img/schools/school_ISB_100px.png"></td>
