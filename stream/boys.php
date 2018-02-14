@@ -87,7 +87,6 @@
         </div>
         <div class="row">
             <div class="col-lg-8 col-md-8 text-center">
-                <h4>NOTE: Click <a href="https://www.youtube.com/watch?v=lfzQ0P33PFk" target="_blank">here</a> for previous Day 2 footage.</h4>
                 <div class="video-container">
                     <?php
                     date_default_timezone_set('Asia/Jakarta');
